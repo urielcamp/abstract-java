@@ -5,16 +5,23 @@ import java.util.LinkedList;
 public class Main {
     public static void main(String[] args) {
 
-
+        //Ejercicio 1
         Documento documento = new Documento("informe", 1);
-        System.out.println("el storage de " + documento.nombre + " es de: " + documento.calcularEspacioOcupado());
+        //System.out.println("el storage de " + documento.nombre + " es de: " + documento.calcularEspacioOcupado());
 
         Capreta carpeta = new Capreta("informes");
 
         carpeta.agregarCarpeta(3);
         carpeta.agregarCarpeta(2);
 
-        System.out.println(carpeta.calcularEspacioOcupado());
+        //System.out.println(carpeta.calcularEspacioOcupado());
+
+        //Ejercicio 2
+
+        Mago mago = new Mago("leo", 98);
+
+        System.out.println(mago.atacar());
+        System.out.println(mago.defender());
 
     }
 }
