@@ -20,8 +20,14 @@ public class Main {
 
         Mago mago = new Mago("leo", 98);
 
-        System.out.println(mago.atacar());
-        System.out.println(mago.defender());
+        //System.out.println(mago.atacar());
+        //System.out.println(mago.defender());
 
+
+        //Ejercicio 3
+
+        Cubo cubo = new Cubo(3);
+
+        System.out.println(cubo.calcularVolumen());
     }
 }
