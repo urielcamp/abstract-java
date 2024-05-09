@@ -28,6 +28,11 @@ public class Main {
 
         Cubo cubo = new Cubo(3);
 
-        System.out.println(cubo.calcularVolumen());
+        //System.out.println(cubo.calcularVolumen());
+
+        //Ejercicio 4
+
+        Gerente gerente = new Gerente("jero", 1900);
+        System.out.println(gerente.calcularSalario());
     }
 }
